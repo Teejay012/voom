@@ -1,4 +1,4 @@
-import ProductDescription from "@/app/containers/productContent/ProductDescription";
+import ProductDescription from "./productDescription";
 
 const ProductLayoutContent = ({ children }) => {
     return (

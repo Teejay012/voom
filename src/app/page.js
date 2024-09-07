@@ -1,6 +1,6 @@
 import Hero from "./containers/hero/Hero";
 import Categories from "./containers/categories/Categories";
-import LatestProducts from "./containers/latestProducts/latestProducts";
+import LatestProducts from "./containers/latestProducts/LatestProducts";
 import TopRating from "./containers/topRating/TopRating";
 import BestSelling from "./containers/bestSelling/BestSelling"
 import Suscribe from "./containers/suscribe/Suscribe"
