@@ -8,7 +8,7 @@ import apple from "../../../public/assets/apple.png";
 
 const Product = ({ name, image, category, realPrice, promoPrice, rating, sold, discount}) => {
   return (
-    <div className='product_container relative border-l-2 border-r-2 group border-[#f3f3f3] flex flex-col w-[200px] min-w-[150px] 600:w-[300px] h-[420px]'>
+    <div className='product_container relative border-2 group border-[#f3f3f3] flex flex-col w-[180px] 600:w-[300px] h-[420px]'>
         <div className='relative w-full h-[220px] flex items-center justify-center'>
             <Image
                 src={image}
