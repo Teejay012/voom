@@ -7,11 +7,12 @@ import { LiaCcVisa } from "react-icons/lia";
 import { IoIosInfinite } from "react-icons/io";
 import { SiMastercard } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
   return (
     <div className='footer_container b bg-light-grey'>
-        <div className="flex flex-col 600:flex-row items-start gap-8 justify-between p-6">
+        <div className="flex flex-col 950:flex-row items-start gap-8 justify-between p-6">
             <div className="flex flex-col gap-6">
                 <div>
                     <a href="#"><h2 className='text-[20px] font-bold'>V<span>O</span><span>O</span>M</h2></a>
@@ -61,6 +62,17 @@ const Footer = () => {
                     <li className="my-3 hover:text-secondary-color duration-300"><a href="#">Terms & condition</a></li>
                     <li className="my-3 hover:text-secondary-color duration-300"><a href="#">Blog</a></li>
                 </ul>
+            </div>
+
+            <div>
+                <h3 className="text-[16px] font-bold">NEWSLETTER</h3>
+
+                <p className="text-[14px] my-4">Subscribe to the weekly newsletter for all the latest updates</p>
+
+                <form action="#" className="flex h-[50px] w-full items-center justify-between bg-grey">
+                    <input type="text" placeholder="Your email address" className="px-2 outline-none h-full w-full bg-transparent" />
+                    <button className="px-4 py-1 bg-secondary-color outline-none h-full flex justify-center items-center"><CiMail className="text-[25px] font-bold text-[#fff]" /></button>
+                </form>
             </div>
         </div>
 

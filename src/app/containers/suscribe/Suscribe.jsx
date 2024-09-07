@@ -13,7 +13,7 @@ const Suscribe = () => {
             />
 
             <div className='absolute h-full w-full inset-0 bg-black bg-opacity-50 px-1 600:px-6 py-5 950:py-0'>
-                <span className='flex h-full w-full flex-col 950:justify-between items-center'>
+                <span className='flex h-full w-full flex-col 950:flex-row 950:justify-between items-center'>
                     <span className=' flex items-center gap-3'>
                         <CiMail className='text-[35px] font-bold' />
                         <div>
