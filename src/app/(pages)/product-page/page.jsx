@@ -2,7 +2,7 @@
 import ProductImages from "@/app/containers/productImages/ProductImages";
 import Product from "@/app/components/product/Product";
 import apple from "../../../public/assets/apple.png";
-import ProductLayoutContent from "@/app/containers/productContent/layout";
+import ProductLayoutContent from "@/app/containers/productContent/ProductLayoutContent";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
