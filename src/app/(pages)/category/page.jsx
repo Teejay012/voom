@@ -11,7 +11,7 @@ import { HiOutlineAdjustmentsVertical } from "react-icons/hi2";
 import { IoCloseOutline } from "react-icons/io5";
 
 
-const page = () => {
+const Page = () => {
 
   const [showFilter, setShowFilter] = useState(false);
 
@@ -53,4 +53,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

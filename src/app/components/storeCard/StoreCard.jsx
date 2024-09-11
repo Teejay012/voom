@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import woman from "../../../public/assets/woman.png";
 import { FaStar } from "react-icons/fa";
@@ -7,7 +8,7 @@ import { MdOutlinePhoneIphone } from "react-icons/md";
 const StoreCard = ({ key, profileImage, coverImage, storeName, storeRating, storeAdress, storeNummber, status }) => {
   return (
     <div key={key} className='my-4 relative overflow-hidden z-0 shadow-lg h-[250px] w-[400px]'>
-        <a href="#" className='w-full h-full absolute inset-0 group transition-opacity duration-1000 flex flex-col justify-center items-center ease-in-out min-w-[]'>
+        <Link href="./store" className='w-full h-full absolute inset-0 group transition-opacity duration-1000 flex flex-col justify-center items-center ease-in-out min-w-[]'>
             <div className="absolute z-10 h-full w-full bottom-0 left-0 bg-black bg-opacity-60 transition-all duration-300 group-hover:bg-opacity-80"></div>
             <Image
                 src={coverImage}
@@ -39,7 +40,7 @@ const StoreCard = ({ key, profileImage, coverImage, storeName, storeRating, stor
             </div>
 
             <p className='z-20 absolute top-2 right-2 py-1 px-3 rounded-[50px] bg-green-500 text-[#fff]'>{status}</p>
-        </a>
+        </Link>
     </div>
   )
 }

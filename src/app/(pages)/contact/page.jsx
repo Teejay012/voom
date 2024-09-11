@@ -5,7 +5,7 @@ import { LiaFaxSolid } from "react-icons/lia";
 
 const Contact = () => {
   return (
-    <div className="p-6 flex flex-col items-center justify-between 750:h-screen 750:flex-row">
+    <div className="p-6 my-7 flex flex-col items-center justify-between 750:h-screen 750:flex-row">
         <div className="bg-secondary-color w-full 750:w-[50%] flex flex-col justify-start items-start h-full text-[#fff] p-4">
             <h2 className="text-[30px] font-bold">Contact Us</h2>
 

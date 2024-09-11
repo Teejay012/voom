@@ -1,4 +1,5 @@
-"use client"
+"use client";
+import Link from 'next/link';
 import ProductImages from "@/app/containers/productImages/ProductImages";
 import Product from "@/app/components/product/Product";
 import apple from "../../../public/assets/apple.png";
@@ -188,18 +189,16 @@ const ProductPage = () => {
             <div className="flex overflow-auto items-center justify-between mt-5">
               {productContents.map((content, index) => (
                   <div key={index}>
-                      <a href="#">
-                          <Product
-                              name={content.name}
-                              image={content.image}
-                              category={content.category}
-                              realPrice={content.realPrice}
-                              promoPrice={content.promoPrice}
-                              rating={content.rating}
-                              sold={content.sold}
-                              discount={content.discount}
-                          />
-                      </a>
+                      <Product
+                          name={content.name}
+                          image={content.image}
+                          category={content.category}
+                          realPrice={content.realPrice}
+                          promoPrice={content.promoPrice}
+                          rating={content.rating}
+                          sold={content.sold}
+                          discount={content.discount}
+                      />
                   </div>
               ))}
             </div>

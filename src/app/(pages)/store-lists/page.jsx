@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 import StoreCard from '@/app/components/storeCard/StoreCard';
 import woman from "../../../public/assets/woman.png";
 import { IoIosSearch } from "react-icons/io";

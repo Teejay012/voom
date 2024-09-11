@@ -49,15 +49,15 @@ const Navbar = () => {
             </div>
 
             <div className="h-full flex items-center gap-1">
-                <a href="#" className="text-[14px] hover:text-secondary-color transition duration-300">
+                <Link href="./contact" className="text-[14px] hover:text-secondary-color transition duration-300">
                     <p>Contact</p>
-                </a>
+                </Link>
 
                 <div className="h-[50%] w-[2px] bg-grey mx-2"></div>
 
-                <a href="#" className="text-[14px] hover:text-secondary-color transition duration-300">
+                <Link href="./order-tracking" className="text-[14px] hover:text-secondary-color transition duration-300">
                     <p>Track Your Order</p>
-                </a>
+                </Link>
             </div>
         </div>
 
@@ -66,9 +66,9 @@ const Navbar = () => {
 
         <div className="h-[100px] navbar_container-middle_container flex justify-between items-center px-6">
 
-            <div className="logo">
-                <h2>FAST<span className="text-secondary-color font-bold">MART</span></h2>
-            </div>
+            <Link href={"./"} className="logo text-[17px]">
+                <h2 className='font-bold'>V<span className="text-secondary-color font-bold">OO</span>M</h2>
+            </Link>
 
             <div className="navbar_container-search border-2 border-grey h-[50px] rounded-[50px] flex items-center">
                 <div className="h-full navbar_container-search_container flex items-center pl-2">
@@ -166,7 +166,7 @@ const Navbar = () => {
                 
                 </div>
 
-                <div><a href="#" className="font-bold text-primary-color">HOME</a></div>
+                <div><Link href="./" className="font-bold text-primary-color">HOME</Link></div>
 
                 <div className="group relative">
                     <span className="flex items-center gap-2 font-bold text-primary-color cursor-pointer">
@@ -183,7 +183,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div><a href="#" className="font-bold text-primary-color">STORE LISTS</a></div>
+                <div><Link href="./store-lists" className="font-bold text-primary-color">STORE LISTS</Link></div>
             </div>
 
             <span className="flex items-center gap-2 font-bold text-primary-color">
