@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
         'grey': '#D4D4D4',
         'secondary-color': '#cf2e2e',
@@ -37,8 +40,10 @@ module.exports = {
         rightToLeft: 'rightToLeft .5s linear'
       },
       screens: {
+        '1000': '1000px',
         '950': '950px',
         '900': '900px',
+        '850': '850px',
         '800': '800px',
         '750': '750px',
         '600': '600px',

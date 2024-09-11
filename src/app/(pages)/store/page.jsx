@@ -7,6 +7,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsFillPhoneFill } from "react-icons/bs";
 import { BsFillStarFill } from "react-icons/bs";
 import { FaShoppingCart } from "react-icons/fa";
+import { IoIosArrowRoundBack } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 
 const productContents = [
@@ -165,9 +167,9 @@ const Store = () => {
 
         <h2 className="py-3 text-[30px] font-bold w-full mt-10 mb-6 border-b-[3px] border-secondary-color">My Products</h2>
 
-        <div className='flex flex-wrap items-center justify-between '>
+        <div className='grid grid-cols-2 750:grid-cols-3 1000:grid-cols-4 gap-3 '>
             {productContents.map((content, index) => (
-                <div key={index} className='my-5'>
+                <div key={index} className='my-3 750:my-5'>
                     <a href="#">
                         <Product
                             name={content.name}
@@ -184,8 +186,17 @@ const Store = () => {
             ))}
         </div>
 
-        <div>
-            
+        <div className='flex items-center gap-2 justify-center text-[14px] my-5'>
+            <button className='flex items-center gap-2 border-2 border-grey rounded-[50px] px-3 py-1 hover:text-secondary-color duration-300'>
+              <IoIosArrowRoundBack />
+              <p>Previous</p>
+            </button>
+            <button className='p-2 border-2 border-grey hover:text-secondary-color duration-300'>1</button>
+            <button className='p-2 border-2 border-grey hover:text-secondary-color duration-300'>2</button>
+            <button className='flex items-center gap-2 border-2 border-grey rounded-[50px] px-3 py-1 hover:text-secondary-color duration-300'>
+              <p>Next</p>
+              <IoIosArrowRoundForward />
+            </button>
         </div>
     </div>
   )

@@ -60,13 +60,13 @@ const Hero = () => {
             className="w-full h-full object-cover object-center"
           />
 
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center flex-col justify-between 750:items-center 750:flex-row 750:justify-between py-10 px-6 750:p-6">
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center flex-col justify-between 750:items-center 750:flex-row 750:justify-between py-10 px-3 500:px-6 750:p-6">
             <span className="flex items-start justify-start flex-col w-full 750:w-[60%]">
-              <h3 className="text-white text-[15px] font-bold mb-4">{content.subTopic}</h3>
-              <h2 className="text-white text-6xl text-3xl font-bold">{content.topic}</h2>
+              <h3 className="text-white text-[13px] 500:text-[15px] font-bold mb-4">{content.subTopic}</h3>
+              <h2 className="text-white text-5xl w-full 500:text-6xl font-bold">{content.topic}</h2>
               <span className="flex items-center justify-start text-[14px] p-5 rounded-[50px] bg-[#fff] my-4 font-bold">
                 <a href="#">Shop Now</a>
-                <FaChevronRight className="bg-[#000] text-[#fff] p-2 rounded-[50px] ml-2"/>
+                <FaChevronRight className="bg-[#000] text-[#fff] py-1 px-2 rounded-[50px] ml-2"/>
               </span>
             </span>
 

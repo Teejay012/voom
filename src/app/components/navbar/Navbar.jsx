@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import { CiLocationOn } from "react-icons/ci";
 import { BsEnvelope } from "react-icons/bs";
 import { IoIosSearch } from "react-icons/io";

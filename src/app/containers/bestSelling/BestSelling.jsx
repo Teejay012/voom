@@ -88,9 +88,9 @@ const productContents = [
 
 const BestSelling = () => {
   return (
-    <div className='BestSelling_container p-6 relative'>
+    <div className='BestSelling_container p-3 500:p-6 relative'>
         <span className=''>
-            <h2 className='text-[30px] py-2 border-b-[4px] border-secondary-color font-bold'>Best Selling</h2>
+            <h2 className='text-[20px] 500:text-[25px] py-2 border-b-[4px] border-secondary-color font-bold'>Best Selling</h2>
         </span>
 
         <div className='flex overflow-auto items-center justify-between '>
