@@ -97,7 +97,7 @@ const productContents = [
 
 const ProductPage = () => {
   return (
-    <div className="p-6">
+    <div className="p-3 500:p-6">
         <div className="flex justify-between flex-col items-start gap-10 800:flex-row">
           <ProductImages />
 

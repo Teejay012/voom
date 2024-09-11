@@ -99,7 +99,7 @@ const storeCardContent = [
 
 const StoreLists = () => {
   return (
-    <div className='p-6 '>
+    <div className='p-3 500:p-6 '>
         <div className='flex justify-between items-center flex-wrap shadow-lg 600:h-[100px] w-full px-3'>
             <span className='flex items-center gap-2 mb-5 600:mb-[0px]'>
                 <p>Total stores showing: </p>

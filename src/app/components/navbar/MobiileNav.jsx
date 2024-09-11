@@ -66,7 +66,7 @@ const MobiileNav = () => {
                 <li className="border-b-2 border-[#f3f3f3] py-3 hover:text-secondary-color transition duration-300"><Link href="#">ABOUT US</Link></li>
                 <li className="border-b-2 border-[#f3f3f3] py-3 hover:text-secondary-color transition duration-300"><Link href="./contact">CONTACT US</Link></li>
                 <li className="border-b-2 border-[#f3f3f3] py-3 hover:text-secondary-color transition duration-300"><Link href="#">FAQ</Link></li>
-                <li className="border-b-2 border-[#f3f3f3] py-3 hover:text-secondary-color transition duration-300"><Link href="#">STORE LISTS</Link></li>
+                <li className="border-b-2 border-[#f3f3f3] py-3 hover:text-secondary-color transition duration-300"><Link href="./store-lists">STORE LISTS</Link></li>
             </ul>
         </div>
         }

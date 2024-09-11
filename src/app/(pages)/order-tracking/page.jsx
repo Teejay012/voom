@@ -2,7 +2,7 @@ import React from 'react'
 
 const TrackOrder = () => {
   return (
-    <div className='flex justify-center p-6 items-center h-screen'>
+    <div className='flex justify-center p-3 500:p-6 items-center h-screen'>
         <div className='max-w-[700px]'>
           <p className='text-[15px] mb-10'>To track your order please enter your Order ID in the box below and press the Track button. This was given to you on your receipt and in the confirmation email you should have received.</p>
 
